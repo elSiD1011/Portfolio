@@ -58,6 +58,10 @@ section {
     min-height: fit-content;
 }
 
+.section-container {
+  display: flex;
+}
+
 /* Profile Section */
 
 #profile {
@@ -97,3 +101,61 @@ section {
     text-align: center;
 }
 
+
+
+/* Media Queries For Responsive Design */
+
+@media (max-width:1400px) {
+    #profile {
+        height: 80vh;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width:1200px) {
+  #profile,
+  .section-container {
+    display: block;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+.profile-image-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+}
+}
+
+@media(max-width:600px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  .menu-links li a {
+    font-size: 1rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .menu-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+    .profile-image-container {
+        width: auto;
+        height: 46vh;
+        justify-content: center;
+    }
+    .text2 {
+        font-size: 1.25rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+}
