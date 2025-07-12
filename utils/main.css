@@ -237,6 +237,9 @@ nav, .footer-links {
         height: 80vh;
         margin-bottom: 5rem;
     }
+    #contact {
+        height: fit-content;
+    }
 }
 
 @media (max-width:1200px) {
@@ -259,6 +262,10 @@ nav, .footer-links {
 }
 
 @media(max-width:600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
   #profile {
     height: 83vh;
     margin-bottom: 0;
@@ -285,4 +292,20 @@ nav, .footer-links {
     .title {
         font-size: 2rem;
     }
+     footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-main-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
 }
