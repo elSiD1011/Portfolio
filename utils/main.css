@@ -157,6 +157,77 @@ section {
     height: 2rem;
 }
 
+/* CONTACT SECTION */
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.contact-info-main-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: pointer;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+/* FOOTER SECTION */
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+nav, .footer-links {
+  display: flex;
+}
+
+.footer-links{
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.footer-links li a {
+  color: black;
+}
+
+.footer-links li > a:hover {
+  color: #1956aa;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
 
 
 /* Media Queries For Responsive Design */
