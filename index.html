@@ -1,80 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Siddhart Chatterjee</title>
-  <link rel="stylesheet" href="utils/main.css">
-</head>
-<body>
-  <main>
-    <header>
-      <nav id="navbar">
-        <div class="logo">Siddharth Chatterjee</div>
-        <div>
-          <ul class="menu-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <nav id="hamburger-nav">
-        <div class="logo">Siddharth Chatterjee</div>
-        <div class="hamburger-menu">
-          <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="ham-links">
-           <ul>
-              <li><a href="#about" onclick="toggleMenu()">About</a></li>
-              <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siddhart Chatterjee</title>
+    <link rel="stylesheet" href="utils/main.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav id="navbar">
+          <div class="logo">Siddharth Chatterjee</div>
+          <div>
+            <ul class="menu-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
-        </div>
-      </nav>
-    </header>
-    <section id="profile">
-      <div class="section-container">
-        <div class="profile-image-container">
-          <img src="./assets/Sid.jpg" alt="Siddhart Chatterjee">
-        </div>
-        <div class="profile-text-container">
-          <p class="text-1">Hello I'm</p>
-          <h1 class="title">SIDDHARTH CHATTERJEE</h1>
-          <p class="text-2">Frontend Developer</p>
-          <div class="btn-container">
-            <button class="btn btn-color-1">Download CV</button>
-            <button class="btn btn-color-2">Contact Into</button>
+        </nav>
+        <nav id="hamburger-nav">
+          <div class="logo">Siddharth Chatterjee</div>
+          <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="ham-links">
+              <ul>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li>
+                  <a href="#experience" onclick="toggleMenu()">Experience</a>
+                </li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="social-container">
-            <img src="./assets/linkedin.png" alt="linkedin" class="icon">
-            <img src="./assets/github.png" alt="github" class="icon">
+        </nav>
+      </header>
+      <section id="profile">
+        <div class="section-container">
+          <div class="profile-image-container">
+            <img src="./assets/Sid.jpg" alt="Siddhart Chatterjee" />
+          </div>
+          <div class="profile-text-container">
+            <p class="text-1">Hello I'm</p>
+            <h1 class="title">SIDDHARTH CHATTERJEE</h1>
+            <p class="text-2">Frontend Developer</p>
+            <div class="btn-container">
+              <button class="btn btn-color-1">Download CV</button>
+              <button class="btn btn-color-2">Contact Into</button>
+            </div>
+            <div class="social-container">
+              <img src="./assets/linkedin.png" alt="linkedin" class="icon" />
+              <img src="./assets/github.png" alt="github" class="icon" />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="contact">
-      <p class="text-1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-main-container">
-        <div class="contact-info-container">
-          <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon">
-          <p><a href="mailto:sid.chatty@gmail.com"></a>sid.chatty@gmail.com</p>
+      </section>
+
+      <!-- About Me -->
+
+      <section id="about">
+        <p class="text-1" style="text-align: center">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section-pic-container">
+            <img
+              src="./assets/about-pic.png"
+              class="about-pic"
+              alt="Sid Image"
+            />
+          </div>
+          <div>
+            <div class="about-detail-container">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <div>
+                  2+ years <br />
+                  in Frontend Development
+                </div>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>Diploma in Audio Engineering</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                I am a passionate frontend developer with over 2 years of
+                experience in creating dynamic and responsive web applications.
+                My journey in web development began with a fascination for
+                design and user experience, which has since evolved into a deep
+                understanding of frontend technologies. I thrive on challenges
+                and enjoy transforming complex problems into elegant solutions.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="contact-info-container">
-          <img src="./assets/linkedin.png" alt="Linkedin" class="icon contact-icon">
-          <p><a href="https://www.linkedin.com/in/elsid1011/">Linkedin</a></p>
+      </section>
+
+      <section id="contact">
+        <p class="text-1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-main-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email Icon"
+              class="icon contact-icon email-icon"
+            />
+            <p>
+              <a href="mailto:sid.chatty@gmail.com"></a>sid.chatty@gmail.com
+            </p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="Linkedin"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/elsid1011/">Linkedin</a></p>
+          </div>
         </div>
-      </div>
-    </section>
-    <footer>
-      <!-- <nav>
+      </section>
+
+      <footer>
+        <!-- <nav>
         <div class="footer-links-container">
           <ul class="footer-links">
             <li><a href="#about">About</a></li>
@@ -84,11 +149,9 @@
           </ul>
         </div>
       </nav> -->
-      <p>
-        Copyright &copy; 2025 Siddhart Chatterjee. All Rights Reserved.
-      </p>
-    </footer>
-  </main>
-  <script src="utils/script.js"></script>
-</body>
+        <p>Copyright &copy; 2025 Siddhart Chatterjee. All Rights Reserved.</p>
+      </footer>
+    </main>
+    <script src="utils/script.js"></script>
+  </body>
 </html>
